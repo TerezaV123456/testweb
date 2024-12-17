@@ -83,13 +83,18 @@ nav {
 }
     
 .services-section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
 
+.services-box {
+    
 }
 
 .services-title {
 
 }
 
-.services-box {
-    
+.services-text {
+
 }
