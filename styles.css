@@ -68,7 +68,6 @@ nav {
     font-weight: bold;
     font-size: 60px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-    backdrop-filter: blur(0.2vh);
     padding: 80px;
     z-index: 2;
 }
@@ -84,7 +83,7 @@ nav {
     height: 30vmax;
     object-fit: cover; 
     display: block;
-    z-index: 1s;
+    z-index: 1;
     filter: brightness(60%);
 }   
     
