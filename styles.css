@@ -23,7 +23,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
+    position: fixed;
     width: 100%;
     top: 0;
     padding: 0 20px;
@@ -134,21 +134,36 @@ nav {
 .slogan {
     background-color: #f6f6f6;
     display: flex;
+    width: 100%;
+    height: 20vmax;
 }
 
 .slogan-text-section {
-
+    width: 50vmax;
+    height: 20vmax;
+    margin: 2vmax;
 }
 
-.slogan-title {
+.slogan-text-section h3 {
+    font-size: 30px;
+}
 
+.slogan-text-section p {
+    margin-top: 2vmax;
+    display: flex;
+    align-items: flex-start;
+    justify-items: center;
+    align-items: center;
+    font-size: 15px;
 }
 
 .slogan-image-section {
-
+    display: flex;
+    align-items: flex-end;
 }
 
 .slogan img {
-    width: 40vmax;
-    height: 30vmax;
+    width: 50vmax;
+    height: 20vmax;
+    object-fit: cover;
 }
