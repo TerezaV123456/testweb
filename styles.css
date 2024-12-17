@@ -1,5 +1,7 @@
 /* # ID; . class */
 
+/* WEB CSS */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +14,9 @@ html, body {
     overflow-x: hidden;
     box-sizing: border-box;
 }
+
+
+/* Navigation CSS */
 
 nav {
     background-color: #ffffff;
@@ -52,6 +57,8 @@ nav {
     background-color: #c0c0c0; 
 }
 
+/* First section CSS */
+
 #main-title {
     position: absolute;
     top: 50%;
@@ -81,6 +88,8 @@ nav {
     filter: brightness(60%);
 }   
     
+/* Second section CSS */
+
 .services-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
@@ -119,4 +128,28 @@ nav {
 .services-text {
     align-items: center;
     font-size: 14px;
+}
+
+/* Third section CSS */
+
+.slogan {
+    background-color: #f6f6f6;
+    display: flex;
+}
+
+.slogan-text-section {
+
+}
+
+.slogan-title {
+
+}
+
+.slogan-image-section {
+
+}
+
+.slogan img {
+    width: 40vmax;
+    height: 30vmax;
 }
