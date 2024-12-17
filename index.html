@@ -7,7 +7,7 @@
         <title>Tvorimeuspech.cz</title>
     </head>
     <body>
-
+        
         <!--Navigation-->
         <nav>
             <div class="navigation">
@@ -102,5 +102,44 @@
                 <img src="/testweb/images/1-5000x3333.jpg" alt="picture">
             </div>
         </section>
+
+        <!--Fourth section (GALLERY)-->
+        <section class="gallery">
+            <div class="gallery-title">
+                <h3>Galerie</h3>
+            </div>
+            <div class="slideshow-container">
+                <div class="mySlides slideshow-active">
+                    <img src="images/10-2500x1667.jpg" alt="Obrázek1">
+                </div>
+                <div class="mySlides">
+                    <img src="images/11-2500x1667.jpg" alt="Obrázek2">
+                </div>
+                <div class="mySlides">
+                    <img src="images/12-2500x1667.jpg" alt="Obrázek3">
+                </div>
+                <div class="mySlides">
+                    <img src="images/1-5000x3333.jpg" alt="Obrázek4">
+                </div>
+                <div class="mySlides">
+                    <img src="images/18-2500x1667.jpg" alt="Obrázek5">
+                </div>
+                <div class="mySlides">
+                    <img src="images/29-4000x2670.jpg" alt="Obrázek6">
+                </div>
+
+                <a class="slideshow-button prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="slideshow-button next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+            </div>
+        </section>
+        <script src="script.js"></script>
     </body>
 </html>

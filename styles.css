@@ -96,6 +96,7 @@ nav {
     padding: 20px; 
     max-width: 1200px; 
     margin: 0 auto;
+    margin-bottom: 2vmax;
 }
 
 .services-box {
@@ -141,7 +142,7 @@ nav {
 .slogan-text-section {
     width: 50vmax;
     height: 20vmax;
-    margin: 2vmax;
+    margin: 3vmax;
 }
 
 .slogan-text-section h3 {
@@ -149,7 +150,7 @@ nav {
 }
 
 .slogan-text-section p {
-    margin-top: 2vmax;
+    margin-top: 4vmax;
     display: flex;
     align-items: flex-start;
     justify-items: center;
@@ -166,4 +167,96 @@ nav {
     width: 50vmax;
     height: 20vmax;
     object-fit: cover;
+}
+
+/* Slideshow CSS */
+
+.gallery-title {
+    font-size: 30px;
+    margin-left: 3vmax;
+    margin-top: 3vmax;
+    margin-bottom: 1vmax;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.mySlides {
+    display: none; 
+}
+
+.slideshow-active {
+    display: block;
+}
+
+.slideshow-button {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+    transform: translateY(-50%); 
+    text-decoration: none; 
+}
+
+.slideshow-button.prev {
+    left: 368px; 
+}
+
+.slideshow-button.next {
+    right: 368px;
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }  
+
+img {
+    width: 60vmax;
+    height: auto;
 }
