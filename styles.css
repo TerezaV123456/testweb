@@ -62,11 +62,15 @@ nav {
     color: #ffffff; 
     font-weight: bold;
     font-size: 60px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(0.2vh);
+    padding: 80px;
+    z-index: 2;
 }
 
 .main-section {
     position: relative;
-    text-align: center; 
+    text-align: center;
 }
 
 .main-section img {
@@ -74,5 +78,18 @@ nav {
     height: 50vh;
     object-fit: cover; 
     display: block;
+    z-index: 1;
+    filter: brightness(60%);
 }
     
+.services-section {
+
+}
+
+.services-title {
+
+}
+
+.services-box {
+    
+}
