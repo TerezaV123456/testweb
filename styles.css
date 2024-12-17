@@ -1,0 +1,24 @@
+/* # ID; . class */
+
+#nav-logo {
+    width: 5%;
+    height: auto;
+    
+}
+
+.navigation {
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+}
+
+.navigation a {
+    float: right;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
