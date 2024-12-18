@@ -22,4 +22,4 @@ function currentSlide(n) {
 
 setInterval(function() {
     showSlides(slideIndex += 1);
-}, 4000); 
+}, 3000); 

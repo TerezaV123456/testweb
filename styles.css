@@ -178,6 +178,11 @@ nav {
     margin-bottom: 1vmax;
 }
 
+.gallery-title a {
+    text-decoration: none;
+    color: #000000;
+}
+
 .slideshow-container {
     position: relative;
     max-width: 100%;
@@ -267,38 +272,125 @@ nav {
     height: auto;
 }
 
+/* Contact section CSS */
+
 .contact {
+    background-color: #f6f6f6;
     display: flex;
-    flex-wrap: wrap;
+    width: 100%;
+    height: 25vmax;
     margin-top: 4vmax;
 }
 
-.contact-text {
-    margin-left: 3vmax;
+.contact-titles {
+    width: 50vmax;
+    height: 20vmax;
+    margin: 3vmax;
 }
 
-.contact-text h3 {
+.contact-titles h3 {
     font-size: 30px;
     margin-bottom: 1vmax;
 }
 
-.contact-text h4 {
-    font-size: 16px;
+.contact-titles h4 {
+    font-size: 20px;
+    margin-bottom: 1vmax;
 }
 
-.contact-text p {
+#contact-adress {
+    font-size: 15px;
+    margin-bottom: 3vmax;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+}
+
+#ic {
+    font-size: 17px;
+    font-weight: bold;
+    padding-bottom: 0.2vmax;
+}
+
+#ic-text {
+    font-size: 15px;
+    padding-bottom: 1vmax;
+}
+
+#dic {
+    font-size: 17px;
+    font-weight: bold;
+    padding-bottom: 0.2vmax;
+}
+
+#dic-text {
+    font-size: 15px;
+    padding-bottom: 1vmax;
+}
+
+#email {
+    font-size: 17px;
+    font-weight: bold;
+    padding-bottom: 0.2vmax;
+}
+
+#email-text {
+    font-size: 15px;
+    padding-bottom: 1vmax;
+}
+
+#email-link {
+    text-decoration: none;
+    color: #000000;
+}
+
+#openhours {
+    font-size: 17px;
+    font-weight: bold;
+    padding-bottom: 0.2vmax;
+}
+
+#openhours-text {
     font-size: 15px;
 }
 
-.contact-content {
-    justify-content: flex-start;
+#phone {
+    font-size: 17px;
+    font-weight: bold;
+    padding-bottom: 0.2vmax;
 }
 
-.contact-image {
-    justify-content: flex-end;
+#phone-text {
+    font-size: 15px;
 }
 
-.contact-image img {
-    width: 55vmax;
-    height: 20vmax;
+#phone-link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.contact-image-section {
+    display: flex;
+}
+
+.contact-image-section img {
+    width: 50vmax;
+    height: 25vmax;
+    object-fit: cover;
+}
+
+/* Forms CSS */
+
+.form {
+    margin: 3vmax;
+}
+
+.form h3 {
+    font-size: 30px;
+}
+
+form {
+    
 }

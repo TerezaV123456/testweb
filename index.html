@@ -106,7 +106,7 @@
         <!--Fourth section (GALLERY)-->
         <section class="gallery">
             <div class="gallery-title">
-                <h3>Galerie</h3>
+                <a href="galerie.html"><h3>Galerie</h3></a>
             </div>
             <div class="slideshow-container">
                 <div class="mySlides slideshow-active">
@@ -139,15 +139,60 @@
                 <span class="dot" onclick="currentSlide(6)"></span>
             </div>
         </section>
-        <section class="contact">
 
-            <div class="slogan-text-section">
-                <h3 id="slogan-title">Kontakt</h3>
-                <p></p>
+        <!--Fifth section (CONTACT)-->
+        <section class="contact">
+            <div class="contact-titles">
+                <h3 id="h3-contact">Kontakt</h3>
+                <h4 id="h4-contact">Fakturační adresa</h4>
+                <p id="contact-adress">Firma<br>Ulice č.p., PSČ město</p>
+                <div class="contact-info">
+                    <div class="contact-content">
+                        <p id="ic">IČ</h4>
+                            <p id="ic-text">00000000</p>
+                    </div>
+
+                    <div class="contact-content">
+                        <p id="dic">DIČ</h4>
+                            <p id="dic-text">CZ00000000</p>
+                    </div>
+
+                    <div class="contact-content">
+                        <p id="email">E-mail</h4>
+                            <p id="email-text"><a id="email-link" href="mailto:vasemail@poskytovatel.cz">vasemail@poskytovatel.cz</a></p>
+                    </div>
+
+                    <div class="contact-content">
+                        <p id="openhours">Otevírací doba</h4>
+                            <p id="openhours-text">Po-Pá: 8:00-18:00</p>
+                    </div>
+
+                    <div class="contact-content">
+                        <p id="phone">Telefonní číslo</h4>
+                            <p id="phone-text"><a id="phone-link" href="tel:+420 111 111 111">+420 111 111 111</a></p>
+                    </div>
+                </div>
             </div>
-            <div class="slogan-image-section">
+            <div class="contact-image-section">
                 <img src="/testweb/images/1-5000x3333.jpg" alt="picture">
             </div>
+        </section>
+
+        <!--Sixth section (FORMS)-->
+        <section class="form">
+            <h3>Kontaktní formulář</h3>
+            <form>
+                <label for="name">Jméno a příjmení:</label>
+                <input type="text" id="name-box" name="fullname" placeholder="Vaše jméno a příjmení">
+
+                <label for="email-form">E-mail:</label>
+                <input type="email" id="mail-box" name="mailbox" placeholder="Váš E-mail">
+
+                <label for="message">Zpráva:</label>
+                <textarea type="text" id="message-box" name="messagebox" placeholder="Vaše zpráva..."></textarea>
+
+                <input type="submit" value="Odeslat">
+            </form>
         </section>
         <script src="script.js"></script>
     </body>
