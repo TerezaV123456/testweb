@@ -28,7 +28,7 @@ nav {
     top: 0;
     padding: 0 20px;
     height: 10vh; 
-    z-index: 10; 
+    z-index: 30; 
 }
 
 .navigation {
@@ -205,13 +205,14 @@ nav {
     background-color: rgba(0, 0, 0, 0.5);
     border: none;
     cursor: pointer;
-    z-index: 10;
-    transform: translateY(-50%); 
-    text-decoration: none; 
+    z-index: 20; 
+    transform: translateY(-50%);
+    text-decoration: none;
 }
 
 .slideshow-button.prev {
-    left: 368px; 
+    left: 368px;
+     
 }
 
 .slideshow-button.next {
@@ -249,6 +250,7 @@ nav {
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
+    margin-top: 1vmax;
   }
 
 .active, .dot:hover {
@@ -260,7 +262,43 @@ nav {
     animation-duration: 1.5s;
   }  
 
-img {
+.mySlides img {
     width: 60vmax;
     height: auto;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4vmax;
+}
+
+.contact-text {
+    margin-left: 3vmax;
+}
+
+.contact-text h3 {
+    font-size: 30px;
+    margin-bottom: 1vmax;
+}
+
+.contact-text h4 {
+    font-size: 16px;
+}
+
+.contact-text p {
+    font-size: 15px;
+}
+
+.contact-content {
+    justify-content: flex-start;
+}
+
+.contact-image {
+    justify-content: flex-end;
+}
+
+.contact-image img {
+    width: 55vmax;
+    height: 20vmax;
 }
