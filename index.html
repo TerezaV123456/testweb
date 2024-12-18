@@ -179,20 +179,22 @@
         </section>
 
         <!--Sixth section (FORMS)-->
-        <section class="form">
+        <section class="form and map">
             <h3>Kontaktní formulář</h3>
             <form>
-                <label for="name">Jméno a příjmení:</label>
+                <label id="form-name" for="name">Jméno a příjmení:</label>
                 <input type="text" id="name-box" name="fullname" placeholder="Vaše jméno a příjmení">
 
-                <label for="email-form">E-mail:</label>
+                <label id="email-form" for="email-form">E-mail:</label>
                 <input type="email" id="mail-box" name="mailbox" placeholder="Váš E-mail">
 
-                <label for="message">Zpráva:</label>
-                <textarea type="text" id="message-box" name="messagebox" placeholder="Vaše zpráva..."></textarea>
+                <label id="message" for="message">Zpráva:</label>
+                <textarea type="text" id="message-box" name="messagebox"></textarea>
 
-                <input type="submit" value="Odeslat">
+                <button id="button-send" type="submit">Odeslat zprávu</button>
             </form>
+
+            
         </section>
         <script src="script.js"></script>
     </body>

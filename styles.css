@@ -383,14 +383,74 @@ nav {
 
 /* Forms CSS */
 
-.form {
+.form h3 {
+    font-size: 30px;
     margin: 3vmax;
 }
 
-.form h3 {
-    font-size: 30px;
+form {
+    margin: 3vmax;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    max-width: 30vmax;
 }
 
-form {
-    
+#form-name {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0.5vmax;
 }
+
+#name-box {
+    margin-bottom: 15px;
+    padding: 0.5vmax; 
+    border: 1px solid #cccccc; 
+    border-radius: 10px;
+    width: 40%;
+}
+
+#email-form {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0.5vmax;
+}
+
+#mail-box {
+    margin-bottom: 15px; 
+    padding: 0.5vmax; 
+    border: 1px solid #cccccc; 
+    border-radius: 10px; 
+    width: 40%;
+}
+
+#message {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0.5vmax;
+}
+
+#message-box {
+    margin-bottom: 15px; 
+    padding: 5vmax; 
+    border: 1px solid #cccccc; 
+    border-radius: 10px; 
+    width: 40%;
+}
+
+#button-send {
+    font-weight: bold;
+    background-color: #575757; 
+    color: #ffffff; 
+    border: 1px solid #000000;
+    padding: 0.6vmax;
+    border-radius: 10px;
+    margin-right: 20vmax;
+    cursor: pointer; 
+}
+
+#button-send:hover {
+    background-color: #838383;
+}
+
+/* MAP CSS */
