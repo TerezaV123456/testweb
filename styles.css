@@ -24,17 +24,17 @@ nav {
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    width: 100%;
+    width: 100vmax;
     top: 0;
-    padding: 0 20px;
-    height: 10vh; 
+    padding: 0 2vmin;
+    height: 5vmax; 
     z-index: 30; 
 }
 
 .navigation {
     display: flex;
     align-items: center;
-    gap: 20px
+    gap: 1vmax;
 }
 
 #nav-logo {
@@ -45,9 +45,9 @@ nav {
 
 .navigation a {
     color: #000000;
-    padding: 16px 18px;
+    padding: 1vmax 1vmax;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.9vmin;
     font-weight: bold;
     transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
 }
@@ -66,9 +66,9 @@ nav {
     transform: translate(-50%, -50%);
     color: #ffffff; 
     font-weight: bold;
-    font-size: 60px;
+    font-size: 4vmin;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-    padding: 80px;
+    padding: 8vmax;
     z-index: 2;
 }
 
@@ -79,8 +79,8 @@ nav {
 }
 
 .main-section img {
-    width: 100%;
-    height: 30vmax;
+    width: 100vmax;
+    height: 40vmax;
     object-fit: cover; 
     display: block;
     z-index: 1;
@@ -92,9 +92,9 @@ nav {
 .services-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
-    gap: 20px; 
+    gap: 2vmax; 
     padding: 20px; 
-    max-width: 1200px; 
+    max-width: 70vmax; 
     margin: 0 auto;
     margin-bottom: 2vmax;
 }
@@ -106,7 +106,7 @@ nav {
     align-items: center;
     width: 18vmax; 
     height: 18vmax; 
-    padding: 15px;
+    padding: 1.5vmax;
     gap: 2vmax; 
     text-align: center;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
@@ -122,12 +122,12 @@ nav {
 .services-title {
     text-align: center;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 2vmax;
 }
 
 .services-text {
     align-items: center;
-    font-size: 14px;
+    font-size: 0.8vmax;
 }
 
 /* Third section CSS */
@@ -135,7 +135,7 @@ nav {
 .slogan {
     background-color: #f6f6f6;
     display: flex;
-    width: 100%;
+    width: 100vmax;
     height: 20vmax;
 }
 
@@ -146,7 +146,7 @@ nav {
 }
 
 .slogan-text-section h3 {
-    font-size: 30px;
+    font-size: 2vmax;
 }
 
 .slogan-text-section p {
@@ -155,7 +155,7 @@ nav {
     align-items: flex-start;
     justify-items: center;
     align-items: center;
-    font-size: 15px;
+    font-size: 0.8vmax;
 }
 
 .slogan-image-section {
@@ -172,7 +172,7 @@ nav {
 /* Slideshow CSS */
 
 .gallery-title {
-    font-size: 30px;
+    font-size: 2vmax;
     margin-left: 3vmax;
     margin-top: 3vmax;
     margin-bottom: 1vmax;
@@ -185,7 +185,7 @@ nav {
 
 .slideshow-container {
     position: relative;
-    max-width: 100%;
+    width: 50vmax;
     margin: auto;
     overflow: hidden;
     display: flex;
@@ -203,9 +203,9 @@ nav {
 
 .slideshow-button {
     position: absolute;
-    top: 50%;
+    top: 20vmax;
     width: auto;
-    padding: 16px;
+    padding: 1vmax;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     border: none;
@@ -216,31 +216,13 @@ nav {
 }
 
 .slideshow-button.prev {
-    left: 368px;
+    left: 0vmax;
      
 }
 
 .slideshow-button.next {
-    right: 368px;
+    right: 0vmax;
 }
-
-.text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
-  
-.numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
   
 .dots {
     text-align: center
@@ -248,9 +230,9 @@ nav {
 
 .dot {
     cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
+    height: 3vmin;
+    width: 3vmin;
+    margin: 0 0.2vmax;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
@@ -277,8 +259,8 @@ nav {
 .contact {
     background-color: #f6f6f6;
     display: flex;
-    width: 100%;
-    height: 25vmax;
+    width: 100vmax;
+    height: 30vmax;
     margin-top: 4vmax;
 }
 
@@ -289,17 +271,17 @@ nav {
 }
 
 .contact-titles h3 {
-    font-size: 30px;
+    font-size: 3vmax;
     margin-bottom: 1vmax;
 }
 
 .contact-titles h4 {
-    font-size: 20px;
+    font-size: 2vmax;
     margin-bottom: 1vmax;
 }
 
 #contact-adress {
-    font-size: 15px;
+    font-size: 1vmax;
     margin-bottom: 3vmax;
 }
 
@@ -309,35 +291,35 @@ nav {
 }
 
 #ic {
-    font-size: 17px;
+    font-size: 1.7vmax;
     font-weight: bold;
     padding-bottom: 0.2vmax;
 }
 
 #ic-text {
-    font-size: 15px;
+    font-size: 1.5vmax;
     padding-bottom: 1vmax;
 }
 
 #dic {
-    font-size: 17px;
+    font-size: 1.7vmax;
     font-weight: bold;
     padding-bottom: 0.2vmax;
 }
 
 #dic-text {
-    font-size: 15px;
+    font-size: 1.5vmax;
     padding-bottom: 1vmax;
 }
 
 #email {
-    font-size: 17px;
+    font-size: 1.7vmax;
     font-weight: bold;
     padding-bottom: 0.2vmax;
 }
 
 #email-text {
-    font-size: 15px;
+    font-size: 1.5vmax;
     padding-bottom: 1vmax;
 }
 
@@ -347,23 +329,23 @@ nav {
 }
 
 #openhours {
-    font-size: 17px;
+    font-size: 1.7vmax;
     font-weight: bold;
     padding-bottom: 0.2vmax;
 }
 
 #openhours-text {
-    font-size: 15px;
+    font-size: 1.5vmax;
 }
 
 #phone {
-    font-size: 17px;
+    font-size: 1.7vmax;
     font-weight: bold;
     padding-bottom: 0.2vmax;
 }
 
 #phone-text {
-    font-size: 15px;
+    font-size: 1.5vmax;
 }
 
 #phone-link {
@@ -377,62 +359,69 @@ nav {
 
 .contact-image-section img {
     width: 49vmax;
-    height: 25vmax;
+    height: 30vmax;
     object-fit: cover;
 }
 
 /* Form and map CSS */
 
 #form-title {
-    font-size: 30px;
+    font-size: 3vmax;
     margin-bottom: 2vmax;
+    margin-left: 3vmax;
 }
 
 form label {
     margin-bottom: 0.1vmax;
     font-weight: bold;
+    margin-left: 3vmax;
 }
 
 #name-box {
     width: 15vmax;
     height: 1vmax;
     padding: 0.2vmax;
+    margin-left: 3vmax;
 }
 
 #mail-box {
     width: 15vmax;
     height: 1vmax;
     padding: 0.2vmax;
+    margin-left: 3vmax;
 }
 
 #message-box {
     width: 15vmax;
     height: 5vmax;
     padding: 1vmax;
+    margin-left: 3vmax;
 }
 
 .form-map {
     display: flex;
-    height: 60vmax; 
-    margin-bottom: 0vmax;
+    width: 100%; 
+    height: auto; 
+    margin: 0; 
+    padding: 0; 
 }
 
 .form-section {
-    width: 50%; 
-    padding: 20px;
+    width: 50%;
+    padding: 0; 
     box-sizing: border-box;
-    margin: 3vmax;
 }
 
 .map-section {
-    width: 55.3vmax; 
-    height: 50vmax; 
+    width: 50vmax;
+    height: auto; 
+    padding: 0;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    gap: 10px; 
+    gap: 0.9vmax; 
     width: 20vmax;
 }
 
@@ -440,14 +429,16 @@ iframe {
     width: 100%;
     height: 30vmax; 
     border: none; 
+    object-fit: cover;
 }
 
 #button-send {
-    width: 5vmax;
+    width: 8vmax;
     height: 2vmax;
     background-color: #717171;
     color: #ffffff;
     border-radius: 5px;
+    margin-left: 3vmax;
 }
 
 /* FOOTER CSS */
@@ -470,7 +461,7 @@ footer {
 .footer-contact {
     display: flex; 
     justify-content: space-between; 
-    width: 60vmax; /
+    width: 50vmax; /
 }
 
 .footer-item a {
@@ -480,9 +471,10 @@ footer {
 
 .footer-item h3 {
     margin: 0; 
-    font-size: 20px;
+    font-size: 1.3vmax;
 }
 
 .footer-item p {
     margin: 1vmax 0 0 0; 
+    font-size: 1.2vmax;
 }
