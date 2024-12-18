@@ -376,81 +376,42 @@ nav {
 }
 
 .contact-image-section img {
-    width: 50vmax;
+    width: 49.6vmax;
     height: 25vmax;
     object-fit: cover;
 }
 
-/* Forms CSS */
+/* Form and map CSS */
 
-.form h3 {
+#form-title {
     font-size: 30px;
-    margin: 3vmax;
+    margin-bottom: 1vmax;
+}
+
+.form-map {
+    display: flex;
+    height: 60vmax; 
+}
+
+.form-section {
+    width: 50%; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.map-section {
+    width: 50%; 
+    height: 100%; 
 }
 
 form {
-    margin: 3vmax;
     display: flex;
-    flex-direction: column; 
-    justify-content: flex-start;
-    max-width: 30vmax;
+    flex-direction: column;
+    gap: 10px; 
 }
 
-#form-name {
-    font-size: 15px;
-    font-weight: bold;
-    margin-bottom: 0.5vmax;
+iframe {
+    width: 100%;
+    height: 50%; 
+    border: none; 
 }
-
-#name-box {
-    margin-bottom: 15px;
-    padding: 0.5vmax; 
-    border: 1px solid #cccccc; 
-    border-radius: 10px;
-    width: 40%;
-}
-
-#email-form {
-    font-size: 15px;
-    font-weight: bold;
-    margin-bottom: 0.5vmax;
-}
-
-#mail-box {
-    margin-bottom: 15px; 
-    padding: 0.5vmax; 
-    border: 1px solid #cccccc; 
-    border-radius: 10px; 
-    width: 40%;
-}
-
-#message {
-    font-size: 15px;
-    font-weight: bold;
-    margin-bottom: 0.5vmax;
-}
-
-#message-box {
-    margin-bottom: 15px; 
-    padding: 5vmax; 
-    border: 1px solid #cccccc; 
-    border-radius: 10px; 
-    width: 40%;
-}
-
-#button-send {
-    font-weight: bold;
-    background-color: #575757; 
-    color: #ffffff; 
-    border: 1px solid #000000;
-    padding: 0.6vmax;
-    border-radius: 10px;
-    margin-right: 20vmax;
-    cursor: pointer; 
-}
-
-#button-send:hover {
-    background-color: #838383;
-}
-
-/* MAP CSS */

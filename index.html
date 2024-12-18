@@ -179,22 +179,25 @@
         </section>
 
         <!--Sixth section (FORMS)-->
-        <section class="form and map">
-            <h3>Kontaktní formulář</h3>
-            <form>
-                <label id="form-name" for="name">Jméno a příjmení:</label>
-                <input type="text" id="name-box" name="fullname" placeholder="Vaše jméno a příjmení">
-
-                <label id="email-form" for="email-form">E-mail:</label>
-                <input type="email" id="mail-box" name="mailbox" placeholder="Váš E-mail">
-
-                <label id="message" for="message">Zpráva:</label>
-                <textarea type="text" id="message-box" name="messagebox"></textarea>
-
-                <button id="button-send" type="submit">Odeslat zprávu</button>
-            </form>
-
-            
+        <section class="form-map">
+                <div class="form-section">
+                    <h3 id="form-title">Kontaktní formulář</h3>
+                    <form>
+                        <label for="form-name" id="form-name">Jméno a příjmení:</label>
+                        <input type="text" id="name-box" required>
+                        
+                        <label for="email-form" id="email-form">Email:</label>
+                        <input type="email" id="mail-box" required>
+                        
+                        <label for="message" id="message">Zpráva:</label>
+                        <textarea id="message-box" required></textarea>
+                        
+                        <button type="submit" id="button-send">Odeslat</button>
+                    </form>
+                </div>
+                <div class="map-section">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41900.788494032044!2d14.449262034168726!3d48.97634513439378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47734fb43a5f629b%3A0x400af0f6614de80!2zxIxlc2vDqSBCdWTEm2pvdmljZQ!5e0!3m2!1sen!2scz!4v1734517797008!5m2!1sen!2scz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
         </section>
         <script src="script.js"></script>
     </body>
