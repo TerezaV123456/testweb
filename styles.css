@@ -478,3 +478,18 @@ footer {
     margin: 1vmax 0 0 0; 
     font-size: 1.2vmax;
 }
+
+@media screen and (max-width: 480px) {
+    nav {
+        width: 50vmax;
+    }
+
+    .navigation {
+        gap: 0vmax;
+    }
+
+    #nav-logo {
+        width: 15%;
+        margin-right: 4vmax;
+    }
+}
