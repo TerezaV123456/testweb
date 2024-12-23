@@ -66,9 +66,9 @@ nav {
     transform: translate(-50%, -50%);
     color: #ffffff; 
     font-weight: bold;
-    font-size: 4vmin;
+    font-size: 6vmin;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-    padding: 8vmax;
+    padding: 5vmax;
     z-index: 2;
 }
 
@@ -260,7 +260,7 @@ nav {
     background-color: #f6f6f6;
     display: flex;
     width: 100vmax;
-    height: 30vmax;
+    height: 25vmax;
     margin-top: 4vmax;
 }
 
@@ -271,12 +271,12 @@ nav {
 }
 
 .contact-titles h3 {
-    font-size: 3vmax;
+    font-size: 5vmin;
     margin-bottom: 1vmax;
 }
 
 .contact-titles h4 {
-    font-size: 2vmax;
+    font-size: 3vmin;
     margin-bottom: 1vmax;
 }
 
@@ -291,35 +291,35 @@ nav {
 }
 
 #ic {
-    font-size: 1.7vmax;
+    font-size: 1.6vmin;
     font-weight: bold;
     padding-bottom: 0.2vmax;
 }
 
 #ic-text {
-    font-size: 1.5vmax;
+    font-size: 1.5vmin;
     padding-bottom: 1vmax;
 }
 
 #dic {
-    font-size: 1.7vmax;
+    font-size: 1.6vmin;
     font-weight: bold;
     padding-bottom: 0.2vmax;
 }
 
 #dic-text {
-    font-size: 1.5vmax;
+    font-size: 1.5vmin;
     padding-bottom: 1vmax;
 }
 
 #email {
-    font-size: 1.7vmax;
+    font-size: 1.6vmin;
     font-weight: bold;
     padding-bottom: 0.2vmax;
 }
 
 #email-text {
-    font-size: 1.5vmax;
+    font-size: 1.5vmin;
     padding-bottom: 1vmax;
 }
 
@@ -329,23 +329,23 @@ nav {
 }
 
 #openhours {
-    font-size: 1.7vmax;
+    font-size: 1.6vmin;
     font-weight: bold;
     padding-bottom: 0.2vmax;
 }
 
 #openhours-text {
-    font-size: 1.5vmax;
+    font-size: 1.5vmin;
 }
 
 #phone {
-    font-size: 1.7vmax;
+    font-size: 1.6vmin;
     font-weight: bold;
-    padding-bottom: 0.2vmax;
+    padding-bottom: 0.2vmin;
 }
 
 #phone-text {
-    font-size: 1.5vmax;
+    font-size: 1.5vmin;
 }
 
 #phone-link {
@@ -369,6 +369,7 @@ nav {
     font-size: 3vmax;
     margin-bottom: 2vmax;
     margin-left: 3vmax;
+    margin-top: 2vmax;
 }
 
 form label {
@@ -445,7 +446,7 @@ iframe {
 
 footer {
     background-color: #f6f6f6; /* Pozadí footeru */
-    padding: 2vmax;
+    padding: 1vmax;
 }
 
 .footer-content {
@@ -461,6 +462,7 @@ footer {
 .footer-contact {
     display: flex; 
     justify-content: space-between; 
+    align-items: center;
     width: 50vmax; /
 }
 
@@ -471,17 +473,17 @@ footer {
 
 .footer-item h3 {
     margin: 0; 
-    font-size: 1.3vmax;
+    font-size: 1vmax;
 }
 
 .footer-item p {
-    margin: 1vmax 0 0 0; 
-    font-size: 1.2vmax;
+    margin: 0.5vmax 0 0 0; 
+    font-size: 0.8vmax;
 }
 
 @media screen and (max-width: 480px) {
     nav {
-        width: 50vmax;
+        width: 60vmax;
     }
 
     .navigation {
@@ -490,6 +492,336 @@ footer {
 
     #nav-logo {
         width: 15%;
-        margin-right: 4vmax;
+        margin-right: 15vmin;
+    }
+
+    .main-section img {
+        width: 100vmax;
+        height: 40vmax;
+        object-fit: cover;
+    }
+
+    #main-title {
+        font-size: 5vmin;
+        padding: 0;
+    }
+
+    .services-section {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        flex-wrap: wrap !important;
+        flex-flow: row wrap !important;
+        margin-left: 5vmin !important;
+    }
+
+    .services-box {
+        width: 35vmin !important;
+    }
+
+    .services-text {
+        font-size: 2vmin !important;
+    }
+
+    .slogan {
+        width: 100%;
+        height: 30vmax !important;
+    }
+
+    .slogan-image-section {
+        display: none;
+    }
+
+    .slogan-text-section h3 {
+        font-size: 2.5vmax;
+    }
+
+    .slogan-text-section p {
+        font-size: 1.3vmax !important;
+    }
+
+    .slogan-text-section {
+        padding-left: 0vmax !important;
+        padding-right: 0vmax !important;
+    }
+
+    .gallery-title {
+        margin-bottom: 4vmax;
+    }
+
+    .slideshow-container {
+        width: 40vmax !important;
+        height: 30vmax;
+    }
+
+    .slideshow-button {
+        top: 15vmax;
+    }
+
+    .contact {
+        height: 45vmax !important;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-image-section {
+        display: none;
+    }
+
+    #contact-adress {
+        font-size: 1.5vmax;
+        text-align: center;
+    }
+
+    .contact-titles h3 {
+        text-align: center;
+    }
+
+    .contact-titles h4 {
+        text-align: center;
+    }
+
+    #ic {
+        font-size: 1.6vmax;
+    }
+    
+    #ic-text {
+        font-size: 1.5vmax;
+    }
+    
+    #dic {
+        font-size: 1.6vmax;
+    }
+    
+    #dic-text {
+        font-size: 1.5vmax;
+    }
+    
+    #email {
+        font-size: 1.6vmax;
+    }
+    
+    #email-text {
+        font-size: 1.5vmax;
+    }
+    
+    #openhours {
+        font-size: 1.6vmax;
+    }
+    
+    #openhours-text {
+        font-size: 1.5vmax;
+        padding-bottom: 1vmax;
+    }
+    
+    #phone {
+        font-size: 1.6vmax;
+    }
+    
+    #phone-text {
+        font-size: 1.5vmax;
+    }
+
+    .form-map {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-section {
+        width: 100%;
+        margin-top: 3vmax;
+        margin-bottom: 3vmax;
+    }
+
+    form {
+        width: 100%;
+        align-items: center;
+    }
+
+    #form-title {
+        text-align: center;
+    }
+
+    #button-send {
+        width: 10vmax;
+        height: 4vmax;
+    }
+
+    .map-section {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-footer {
+        text-align: center;
+    }
+
+    .footer-contact {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-contact h3 {
+        font-size: 2vmax;
+    }
+
+    .footer-item p {
+        margin: 0;
+        margin-bottom: 2vmax;
+        font-size: 1.5vmax;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        width: 100%;
+    }
+
+    .navigation {
+        gap: 0vmax;
+    }
+
+    #nav-logo {
+        width: 10%;
+        margin-right: 15vmin;
+    }
+
+    #main-title {
+        font-size: 3.5vmax;
+    }
+
+    .services-text {
+        font-size: 1.2vmax;
+    }
+
+    .slogan {
+        height: 25vmax;
+    }
+
+    .slogan-text-section {
+        width: 100%;
+        text-align: center;
+        padding-left: 4vmax;
+        padding-right: 10vmax;
+    }
+
+    .slogan-image-section {
+        display: none;
+    }
+
+    .slogan img {
+        display: none;
+    }
+
+    .slogan-text-section p {
+        font-size: 1.3vmax;
+    }
+
+    .slideshow-container {
+        width: 60vmax;
+    }
+
+    .contact {
+        height: 35vmax;
+    }
+
+    #contact-adress {
+        font-size: 1.3vmax;
+    }
+
+    .contact-image-section img {
+        height: 35vmax;
+    }
+
+    .form-map {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .form-section {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 3vmax;
+        margin-top: 3vmax;
+    }
+
+    form {
+        align-items: center;
+    }
+
+    .map-section {
+        width: 100%;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    #button-send {
+        width: 10vmax;
+        height: 4vmax;
+    }
+
+    footer {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .image-footer {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-contact {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-contact h3 {
+        font-size: 2vmax;
+    }
+
+    .image-footer img {
+        width: 10vmax;
+    }
+
+    .footer-item p {
+        margin: 0;
+        margin-bottom: 2vmax;
+        font-size: 1.5vmax;
     }
 }
