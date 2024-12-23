@@ -537,7 +537,7 @@ footer {
     }
 
     .slogan-text-section p {
-        font-size: 1.3vmax !important;
+        font-size: 40px;
     }
 
     .slogan-text-section {
@@ -731,7 +731,7 @@ footer {
     }
 
     .slogan-text-section p {
-        font-size: 1.3vmax;
+        font-size: 20px;
     }
 
     .slideshow-container {
@@ -823,5 +823,32 @@ footer {
         margin: 0;
         margin-bottom: 2vmax;
         font-size: 1.5vmax;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    nav {
+        width: 100%;
+    }
+
+    .navigation {
+        gap: 0vmax;
+    }
+
+    #nav-logo {
+        width: 7%;
+        margin-right: 55vmin;
+    }
+    
+    .slogan {
+        height: 25vmax;
+    }
+    
+    .slogan-text-section p {
+        font-size: 10px;
+    }
+
+    .slogan img {
+        height: 25vmax;
     }
 }
